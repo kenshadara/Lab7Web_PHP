@@ -8,13 +8,13 @@ Selain itu, praktikum ini juga mempelajari validasi input pengguna dan penerapan
 
 ## 2. Tujuan Praktikum
 
-1. Memahami konsep dasar pemrograman server-side menggunakan PHP.
-2. Mengenal sintaks, variabel, dan tipe data PHP.
-3. Menggunakan percabangan dan perulangan.
-4. Mengolah data menggunakan array dan function.
-5. Memahami penggunaan metode GET dan POST.
-6. Menerapkan validasi input pada form.
-7. Membuat aplikasi sederhana menggunakan PHP.
+- Memahami konsep dasar pemrograman server-side menggunakan PHP.
+- Mengenal sintaks, variabel, dan tipe data PHP.
+- Menggunakan percabangan dan perulangan.
+- Mengolah data menggunakan array dan function.
+- Memahami penggunaan metode GET dan POST.
+- Menerapkan validasi input pada form.
+- Membuat aplikasi sederhana menggunakan PHP.
 
 ## 3. Perangkat yang Digunakan
 
@@ -48,14 +48,13 @@ Contoh:
 
 ## 5. Struktur Folder Proyek
 
-Berikut struktur file praktikum:
+Berikut struktur file dan folder praktikum:
 
 ```text
 Lab7Web_PHP/
 │
 ├── index.php
 ├── cari.php
-│
 ├── latihan2.php
 ├── latihan3.php
 ├── latihan4.php
@@ -70,6 +69,25 @@ Lab7Web_PHP/
 ├── eksperimen4.php
 ├── eksperimen5.php
 │
+├── screenshots/
+│   ├── Latihan1_Menjalankan_PHP.png
+│   ├── Latihan2_Variabel_Percabangan.png
+│   ├── Latihan3_Perulangan_Array.png
+│   ├── Latihan4_Function.png
+│   ├── Latihan5_Form_GET.png
+│   ├── Latihan6_Form_POST.png
+│   ├── Latihan7_Pengolahan_Data.png
+│   ├── MiniProject_Form.png
+│   ├── MiniProject_Hasil_Error.png
+│   ├── MiniProject_Hasil_Valid.png
+│   ├── Eksperimen1_Nilai_Rata_Rata.png
+│   ├── Eksperimen2_Pencarian_GET.png
+│   ├── Eksperimen3_Format_Rupiah.png
+│   ├── Eksperimen4_NIM_Invalid.png
+│   ├── Eksperimen4_NIM_Valid.png
+│   ├── Eksperimen5_Hasil_Kirim.png
+│   └── Eksperimen5_Hasil_Reset.png
+│
 └── README.md
 ```
 
@@ -79,13 +97,13 @@ Lab7Web_PHP/
 
 Kegiatan latihan meliputi:
 
-1. Menjalankan program PHP melalui localhost.
-2. Menampilkan data mahasiswa dan nilai akhir.
-3. Menampilkan daftar mahasiswa menggunakan array.
-4. Menghitung diskon dan luas persegi panjang.
-5. Membuat form pencarian menggunakan GET.
-6. Membuat form input data mahasiswa.
-7. Membuat form transaksi barang dan menghitung subtotal.
+- Menjalankan program PHP melalui localhost.
+- Menampilkan data mahasiswa dan nilai akhir.
+- Menampilkan daftar mahasiswa menggunakan array.
+- Menghitung diskon dan luas persegi panjang.
+- Membuat form pencarian menggunakan GET.
+- Membuat form input data mahasiswa.
+- Membuat form transaksi barang dan menghitung subtotal.
 
 ### B. Mini Project – Formulir Data Mahasiswa
 
@@ -141,56 +159,58 @@ Hasil: PHP menampilkan pesan kesalahan karena nama wajib diisi, format email tid
 
 ### B. Pengujian Eksperimen
 
-1. Eksperimen 1: Nilai rata-rata berhasil dihitung sebesar 85.00.
-2. Eksperimen 2: Pencarian nama berhasil dijalankan menggunakan GET.
-3. Eksperimen 3: Format Rupiah berhasil ditampilkan.
-4. Eksperimen 4: Validasi NIM berhasil memeriksa angka dan panjang karakter.
-5. Eksperimen 5: Tombol Kirim Data dan Reset berhasil diuji.
+- Eksperimen 1: Nilai rata-rata berhasil dihitung sebesar 85.00.
+- Eksperimen 2: Pencarian nama berhasil dijalankan menggunakan GET.
+- Eksperimen 3: Format Rupiah berhasil ditampilkan.
+- Eksperimen 4: Validasi NIM berhasil memeriksa angka dan panjang karakter.
+- Eksperimen 5: Tombol Kirim Data dan Reset berhasil diuji.
 
 ## 8. Dokumentasi Screenshot
 
-Dokumentasi screenshot digunakan sebagai bukti pelaksanaan praktikum, meliputi:
+Dokumentasi screenshot digunakan sebagai bukti pelaksanaan praktikum. Dokumentasi meliputi:
 
-- Hasil latihan dasar PHP.
-- Hasil Mini Project dengan data valid.
-- Hasil Mini Project dengan data tidak valid.
+- Hasil latihan dasar PHP, mulai dari Latihan 1 sampai Latihan 7.
+- Tampilan formulir Mini Project.
+- Hasil pengujian Mini Project dengan data valid.
+- Hasil pengujian Mini Project dengan data tidak valid.
 - Hasil Eksperimen 1 sampai Eksperimen 5.
 
-Screenshot disimpan pada folder `screenshots` di dalam direktori proyek.
+Seluruh screenshot disimpan dalam folder `screenshots` di dalam direktori proyek `Lab7Web_PHP`.
 
 ## 9. Pertanyaan Evaluasi
 
-### 1. Apa perbedaan pemrosesan client-side dan server-side?
+**1. Apa perbedaan pemrosesan client-side dan server-side?**
 
 Client-side adalah proses yang dijalankan di sisi browser pengguna, seperti HTML, CSS, dan JavaScript. Sedangkan server-side adalah proses yang dijalankan di server untuk menerima permintaan, mengolah data, dan mengirimkan hasil kembali ke browser. PHP merupakan salah satu bahasa pemrograman server-side.
 
-### 2. Mengapa file PHP harus dijalankan melalui web server?
+**2. Mengapa file PHP harus dijalankan melalui web server?**
 
 Karena PHP merupakan bahasa pemrograman server-side yang membutuhkan web server untuk menjalankan dan memproses kode PHP. Hasil pemrosesan kemudian dikirimkan ke browser dalam bentuk HTML.
 
-### 3. Apa fungsi tanda $ pada variabel PHP?
+**3. Apa fungsi tanda $ pada variabel PHP?**
 
 Tanda `$` digunakan sebagai penanda variabel dalam PHP. Variabel berfungsi untuk menyimpan data yang dapat digunakan dan diolah dalam program.
 
 Contoh:
+
 ```php
 $nama = "Kensha Dara";
 $umur = 23;
 ```
 
-### 4. Apa perbedaan metode GET dan POST?
+**4. Apa perbedaan metode GET dan POST?**
 
 GET mengirimkan data melalui parameter URL sehingga data terlihat pada alamat browser. Sedangkan POST mengirimkan data melalui body permintaan sehingga data tidak ditampilkan pada URL dan biasanya digunakan untuk mengirimkan data formulir.
 
-### 5. Mengapa input pengguna perlu divalidasi di sisi server?
+**5. Mengapa input pengguna perlu divalidasi di sisi server?**
 
 Validasi server diperlukan untuk memastikan data yang diterima sesuai dengan ketentuan program, mencegah kesalahan input, dan mengurangi risiko keamanan meskipun form sudah memiliki validasi HTML.
 
-### 6. Apa fungsi htmlspecialchars() ketika menampilkan data dari form?
+**6. Apa fungsi htmlspecialchars() ketika menampilkan data dari form?**
 
 `htmlspecialchars()` berfungsi mengubah karakter khusus HTML menjadi bentuk yang aman ketika ditampilkan. Tujuannya untuk mengurangi risiko penyisipan kode HTML atau JavaScript berbahaya (XSS).
 
-### 7. Apa manfaat penggunaan function dalam program PHP?
+**7. Apa manfaat penggunaan function dalam program PHP?**
 
 Function bermanfaat untuk mengelompokkan kode berdasarkan tugas tertentu, mengurangi pengulangan kode, membuat program lebih terstruktur, serta memudahkan penggunaan kembali kode.
 
