@@ -48,8 +48,6 @@ Contoh:
 
 ## 5. Struktur Folder Proyek
 
-Berikut struktur file dan folder praktikum:
-
 ```text
 Lab7Web_PHP/
 │
@@ -167,15 +165,83 @@ Hasil: PHP menampilkan pesan kesalahan karena nama wajib diisi, format email tid
 
 ## 8. Dokumentasi Screenshot
 
-Dokumentasi screenshot digunakan sebagai bukti pelaksanaan praktikum. Dokumentasi meliputi:
+Dokumentasi screenshot berikut merupakan bukti pelaksanaan dan hasil pengujian Praktikum 7 – Pemrograman Server-Side PHP.
 
-- Hasil latihan dasar PHP, mulai dari Latihan 1 sampai Latihan 7.
-- Tampilan formulir Mini Project.
-- Hasil pengujian Mini Project dengan data valid.
-- Hasil pengujian Mini Project dengan data tidak valid.
-- Hasil Eksperimen 1 sampai Eksperimen 5.
+### A. Latihan Dasar PHP
 
-Seluruh screenshot disimpan dalam folder `screenshots` di dalam direktori proyek `Lab7Web_PHP`.
+**Latihan 1 – Menjalankan PHP**
+
+![Latihan 1](screenshots/Latihan1_Menjalankan_PHP.png)
+
+**Latihan 2 – Variabel dan Percabangan**
+
+![Latihan 2](screenshots/Latihan2_Variabel_Percabangan.png)
+
+**Latihan 3 – Perulangan dan Array**
+
+![Latihan 3](screenshots/Latihan3_Perulangan_Array.png)
+
+**Latihan 4 – Function**
+
+![Latihan 4](screenshots/Latihan4_Function.png)
+
+**Latihan 5 – Form GET**
+
+![Latihan 5](screenshots/Latihan5_Form_GET.png)
+
+**Latihan 6 – Form POST**
+
+![Latihan 6](screenshots/Latihan6_Form_POST.png)
+
+**Latihan 7 – Pengolahan Data**
+
+![Latihan 7](screenshots/Latihan7_Pengolahan_Data.png)
+
+### B. Mini Project – Formulir Data Mahasiswa
+
+**Tampilan Formulir**
+
+![Mini Project Form](screenshots/MiniProject_Form.png)
+
+**Hasil Pengujian Data Tidak Valid**
+
+![Mini Project Error](screenshots/MiniProject_Hasil_Error.png)
+
+**Hasil Pengujian Data Valid**
+
+![Mini Project Valid](screenshots/MiniProject_Hasil_Valid.png)
+
+### C. Eksperimen Mandiri
+
+**Eksperimen 1 – Menghitung Nilai Rata-Rata**
+
+![Eksperimen 1](screenshots/Eksperimen1_Nilai_Rata_Rata.png)
+
+**Eksperimen 2 – Pencarian Menggunakan GET**
+
+![Eksperimen 2](screenshots/Eksperimen2_Pencarian_GET.png)
+
+**Eksperimen 3 – Format Rupiah**
+
+![Eksperimen 3](screenshots/Eksperimen3_Format_Rupiah.png)
+
+**Eksperimen 4 – Validasi NIM Tidak Valid**
+
+![Eksperimen 4 Invalid](screenshots/Eksperimen4_NIM_Invalid.png)
+
+**Eksperimen 4 – Validasi NIM Valid**
+
+![Eksperimen 4 Valid](screenshots/Eksperimen4_NIM_Valid.png)
+
+**Eksperimen 5 – Hasil Kirim Data**
+
+![Eksperimen 5 Kirim](screenshots/Eksperimen5_Hasil_Kirim.png)
+
+**Eksperimen 5 – Hasil Reset Form**
+
+![Eksperimen 5 Reset](screenshots/Eksperimen5_Hasil_Reset.png)
+
+Seluruh dokumentasi screenshot disimpan dalam folder `screenshots` pada direktori proyek `Lab7Web_PHP`.
 
 ## 9. Pertanyaan Evaluasi
 
